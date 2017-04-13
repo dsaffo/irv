@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRV Sim</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+</head>
+
+<body>
+    <div>
+   
+        
+        
+        <div class="row" style="/*height:333px;*/width:100%;margin:1px;vertical-align:middle;/*display:inline;*/">
+            <div class="col-md-12 labelcol"><span id="label" style="font-size:30px;">Dessert </span></div>
+            <div class="col-md-12 labelcol"><img src="assets/img/manydonuts.jpg" id="pic1" class="pic" ></div>
+            <div class="col-md-12 labelcol" id="col2"><img src="assets/img/signature-cakes-strawberrypassion.jpg" id="pic2" class="pic"></div>
+            <div class="col-md-12 labelcol" id="col3"><img src="assets/img/ice_cream_PNG20986.png" id="pic3" class="pic"></div>
+            <div class="col-md-12 labelcol" id="col4"><img src="assets/img/baked-pie.jpg" id="pic4" class="pic" ></div>
+            <div class="col-md-12 labelcol" id="col5"><img src="assets/img/550394c428e268868aa73e509302b84c.jpg" id="pic5" class="pic" ></div>
+        </div>
+        <div class="row voterows">
+            <div class="col-md-12 labelcol"><span class="votes">Votes </span></div>
+            <div class="col-md-12 labelcol"><span id="can1" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="can2" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="can3" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="can4" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="can5" class="votes">0 </span></div>
+        </div>
+        <div class="row voterows">
+            <div class="col-md-12 labelcol"><span class="votes">Added </span></div>
+            <div class="col-md-12 labelcol"><span id="add1" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="add2" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="add3" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="add4" class="votes">0 </span></div>
+            <div class="col-md-12 labelcol"><span id="add5" class="votes">0 </span></div>
+        </div>
+    </div>
+    <div style="margin-top:50px;"><span style="font-size:37px;">Votes Needed = 9</span>
+        <button onclick="irv()" class="btn btn-default" type="button" id="step" style="height:91px;width:176px;float:right;margin:16px;">Step </button>
+    </div>
+    <div><span id="stepText" style="font-size:37px;">Step Text</span></div>
+    <button onclick="next()" class="btn btn-default" type="button" id="next" style="/*height:91px;*//*width:176px;*/float:right;margin:16px;margin-left:10000px;margin-top:30px;">Next </button>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>

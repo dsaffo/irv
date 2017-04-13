@@ -1,0 +1,28 @@
+.labelcol {
+  width:16.666%;
+  height:100%;
+  text-align:center;
+  color:black;
+  vertical-align:middle;
+  border:solid 1px black;
+}
+
+.votes {
+  font-size:30px;
+  vertical-align:middle;
+}
+
+.voterows {
+  border:solid 2px black;
+  width:100%;
+  margin:1px;
+  width:100%;
+  margin-top:10px;
+}
+
+.pic {
+  height:100px;
+  width:100px;
+  /*resize:both;*/
+}
+
